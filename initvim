@@ -1,5 +1,6 @@
 set nocompatible      " Enable Vim mode (instead of vi emulation)
-
+set showmatch		" show matching brackets
+set ignorecase		" case insensitive matching
 let g:is_posix = 1    " Our /bin/sh is POSIX, not bash
 set autoindent        " Intelligent indentation matching
 set autoread          " Update the file if it's changed externally
@@ -13,6 +14,12 @@ set incsearch         " Highlight search matches as you type them
 set ruler             " Show cursor position
 set ttyfast           " Redraw faster for smoother scrolling
 set wildmenu          " Show menu for tab completion in command mode
+set wildmode=longest,list		" tab-completions
+set number		" line numbers
+set cc=80		" 80 column border
+set mouse=a
+
+colorscheme default
 
 try                   
     syntax on         " Enable syntax highlighting

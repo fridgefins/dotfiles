@@ -30,6 +30,7 @@ alias	cp="cp -iv"
 alias	rm="rm -Iv"
 alias	mkdir="mkdir -pv"
 alias	grep="grep --color=auto"
+alias	untar="tar -zxvf"
 
 alias	nf="neofetch"
 alias	ytdl="youtube-dl"
