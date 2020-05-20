@@ -32,7 +32,7 @@ alias	mkdir="mkdir -pv"
 alias	grep="grep --color=auto"
 alias	untar="tar -zxvf"
 
-alias	nf="neofetch"
+alias	nf="clear;neofetch"
 alias	ytdl="youtube-dl"
 alias	ping="ping -c 5"
 alias	wget="wget -c"
