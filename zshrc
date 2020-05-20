@@ -33,6 +33,9 @@ alias	nf="neofetch"
 alias	ytdl="youtube-dl"
 alias	ping="ping -c 5"
 alias	wget="wget -c"
+alias	ga="git add ."
+alias	gc="git commit"
+alias	gpom="git push origin master"
 
 alias	reboot="sudo reboot"
 
@@ -42,7 +45,7 @@ HISTSIZE=500
 SAVEHIST=5000
 
 ##	oh-my-zsh
-VSH_THEME="robbyrussel"
+VSH_THEME="avit"
 plugins=(git)
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
