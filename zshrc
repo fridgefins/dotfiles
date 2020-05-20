@@ -40,6 +40,7 @@ alias	gc="git commit"
 alias	gpom="git push origin master"
 
 alias	reboot="sudo reboot"
+alias	shutdown="sudo shutdown now"
 
 ##	shell.history
 HISTFILE=~/.zshhistory
