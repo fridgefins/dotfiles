@@ -17,6 +17,8 @@ alias	xres="nvim ~/.Xresources"
 alias	xresrl="xrdb ~/.Xresources"
 alias	i3conf="nvim ~/.config/i3/config"
 alias	i3confrl="i3-msg reload"
+alias	vimrc="nvim ~/.vimrc"
+alias	vimrl="source ~/.vimrc"
 
 alias	rmdir="rm -rfv"
 alias	c="clear"
