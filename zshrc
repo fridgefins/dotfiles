@@ -1,7 +1,7 @@
 PROMPT="[ %/ ] > "
 
 ##	env
-export	ZSH="/home/mkloughlin/.oh-my-zsh"
+export	ZSH="~/.oh-my-zsh"
 export	EDITOR=nvim
 export	PAGER=most
 
