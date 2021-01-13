@@ -1,0 +1,42 @@
+#	Shell Aliases
+
+alias startx='startx; exit'
+alias clr='clear'
+alias ls='ls -F --group-directories-first'				# colorful ls
+alias la='ls -AF --group-directories-first'			# list all files
+alias ll='ls -AohSF --group-directories-first'			# list all files longform
+alias lsd='ls -ldF *(-/DN)'					# list only directories
+alias mv='mv -iv'						# move [interactive] [verbose]
+alias cp='cp -iv'						# copy [interactive] [verbose]
+alias cpv='rsync -ah --info=progress2'				# copy with a progress bar
+alias rm='rm -iv'						# remove [interactive] [verbose]
+alias mkdir='mkdir -pv'						# make directory [all parents] [verbose]
+alias gh='history|grep'						# grep history
+alias h='history'						# list command history
+alias d='dirs -lv'						# list currently remembered directories
+alias untar='tar -zxvf'
+alias ~='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias df='df -hT'						# list disk usage [human readable] [fs type]
+
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown now'
+alias vpm='sudo vpm'
+
+alias zshrc='$EDITOR $HOME/.zshrc'
+alias zshrl='source $HOME/.zshrc && echo zshrc reloaded'
+alias xres='$EDITOR $HOME/.Xresources'
+alias xresrl='xrdb -merge $HOME/.Xresources && echo Xresources reloaded'
+alias vimrc='$EDITOR $HOME/.vimrc'
+alias vimrl='source $HOME/.vimrc && echo vimrc reloaded'
+
+alias nf='clear;neofetch'
+alias vim='nvim'
+alias ytdl='youtube-dl'
+alias ga='git add .'
+alias gc='git commit'
+alias gpom='git push origin master'
+alias myip='curl http://ipecho.net/plain; echo'
+alias ping='ping -c 5'
+alias wget='wget -c'
